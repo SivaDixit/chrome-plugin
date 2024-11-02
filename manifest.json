@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Bookmark Manager",
+    "version": "1.0",
+    "description": "Bookmark all links and categorize them by domain.",
+    "permissions": ["storage", "tabs"],
+    "action": {
+      "default_icon": {
+        "16": "icons/bookmark-icon.png",
+        "48": "icons/bookmark-icon.png",
+        "128": "icons/bookmark-icon.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icons/bookmark-icon.png"
+    }
+  }
+  
